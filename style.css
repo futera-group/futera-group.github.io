@@ -1,16 +1,75 @@
-
+/* font and background color for the body of the page */
 body {
+  /* font */
   font-family: "Comic Sans MS", Helvetica, sans-serif;
-  background-color: #dddddd;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-variant: normal;
+  /* text */
+  text-align: left;
+  text-decoration: none;
+  /* line spacing */
+  line-height: 1.5;
+  /* colors */
+  color: #000000;
+  background: #dddddd;
 }
 
-div#title {
-  margin-left: 0%;
-  margin-right: 0%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 5px;
-  padding-bottom: 0px;
-  text-align: center;
-  background-color: #000000;}
+/* wrapping container for controlling the site width */
+.container {
+  width: 90%;
+  min-width: 1050px;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: table;
+}
 
+/* header */
+body header {
+  text-align: center;
+  margin: 0px;
+  background: black;
+}
+
+.row {
+  display: table-row;
+}
+
+.column {
+  height: 100%;
+  display: table-cell;
+}
+
+/* page content */
+#page_content.column {
+  width: 84%;
+  height: 100%;
+  padding-left: 2%;
+  background: white;
+  float: right;
+  display: table-cell;
+}
+
+/* --- Navigation bar --------------------------------------------------------*/
+
+/* navigation bar */
+#navigation_bar.column {
+  width: 14%;
+  padding-top: 1em;
+  background: white;
+  float: left;
+  display: table-cell;
+}
+
+#navigation_bar a {
+  text-decoration: none;
+  line-height: 2;
+  padding-left: 10px;
+  color: black;
+  display: block;
+}
+
+#navigation_bar a:hover {
+  color: blue;
+}

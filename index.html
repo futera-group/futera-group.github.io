@@ -34,16 +34,38 @@
 <!-- Body --------------------------------------------------------------------->
 
 <body>
+<div class="container">
+
+<!-- Header - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
 
 <header>
-<h1>Computational Molecular Physics Group</h1>
+<img src="figures/fig-group-title.png"
+     alt="Computational Molecular Physics Group">
 </header>
+
+<!-- Navigation bar - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
+<div class="row">
+<div class="column" id="navigation_bar">
+<nav>
+
+<a href="#people">People</a>
+<a href="#research">Research</a>
+<a href="#news">News</a>
+<a href="#publications">Publications</a>
+<a href="#funding">Funding</a>
+<a href="#contact">Contact</a>
+
+</nav>
+</div>
+
+<!-- Page content - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
+<div class="column" id="page_content"
 
 <!-- People - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
 
 <section>
 
-<h1>People</h1>
+<h1 id="people">People</h1>
 
 <ul>
   <li>Zdeněk Futera</li>
@@ -63,21 +85,26 @@
 <!-- Research - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
 
 <section>
-<h1>Research</h1>
+<h1 id="research">Research</h1>
 </section>
+
+<ul>
+  <li>Eletron transport on bio/metallic interfaces</li>
+  <p><img src="figures/fig-stc-junction.png" alt="STC junction" height="200"></p>
+</ul>
 
 <!-- News - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
 
 <section>
 
-<h1>News</h1>
+<h1 id="news">News</h1>
 
 <ul>
   <li>
     <time datetime="2023-01-31">31<sup>st</sup> Jan 2023</time>:
     Lukáš and Matyáš presented summaries of their works on the departmental bachelor seminar
   </li>
-  
+
   <li>
     <time datetime="2023-01-20">20<sup>th</sup> Jan 2023</time>:
     Zdeněk introduced our work to a couple of high-school students during the University Open Day
@@ -155,7 +182,7 @@
 
 <section>
 
-<h1>Publications</h1>
+<h1 id="publications">Publications</h1>
 
 <section>
 <h2>2023</h2>
@@ -277,7 +304,7 @@ Einaga Y. (eds)
 
 <section>
 
-<h1>Funding</h1>
+<h1 id="funding">Funding</h1>
 
 <ul>
   <li>Czech Grant Agency (Project 20-02067Y, 2020-2022, PI: Z. Futera)<br>
@@ -291,7 +318,7 @@ Einaga Y. (eds)
 
 <section>
 
-<h1>Contact</h1>
+<h1 id="contact">Contact</h1>
 
 <address>
 <p>
@@ -313,6 +340,9 @@ Phone: +420 389 036 260
 </section>
 
 <!----------------------------------------------------------------------------->
+</div> <!-- page_content -->
+</div> <!-- row -->
+</div> <!-- container -->
 
 </body>
 
