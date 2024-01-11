@@ -28,7 +28,7 @@
         content="DFT, density functional theory, electron transfer">
   <meta name="author"
         content="Zdenek Futera">
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="style-new.css" type="text/css">
 </head>
 
 <!-- Body --------------------------------------------------------------------->
@@ -41,49 +41,177 @@
 <header>
 <img src="figures/fig-group-title.png"
      alt="Computational Molecular Physics Group">
+<!--<h1>Computational Molecular Physics Group</h1>
+<p>Welcome to our scientific community!</p> -->
 </header>
 
-<!-- Navigation bar - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
-<div class="row">
-<div class="column" id="navigation_bar">
-<nav>
-
-<a href="#people">People</a>
-<a href="#research">Research</a>
-<a href="#news">News</a>
-<a href="#publications">Publications</a>
-<a href="#funding">Funding</a>
-<a href="#contact">Contact</a>
-
-</nav>
-</div>
-
-<!-- Page content - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
-<div class="column" id="page_content"
-
-<!-- People - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
+<!-- About Us - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
 
 <section>
-
-<h1 id="people">People</h1>
-
-<ul>
-  <li>Zdeněk Futera</li>
-  <li>Gowtham Nirmal Jonnalagadda</li>
-  <li>Lukáš Hronek</li>
-  <li>Matyáš Suchý</li>
-  <li>Jitka Vysloužilová</li>
-</ul>
-
-<ul>
-  <li>Denys Biriukov</li>
-  <li>Outi Vilhelmiina Kontkanen</li>
-</ul>
-
+<h2>About Us</h2>
+<p>
+We are a group of scientists and students working together to investigate various molecular systems and processes using computer simulation methods.
+We work at <a href="https://www.prf.jcu.cz/en/faculty/departments/department-of-physics">Deparment of Physics</a>, <a href="https://www.prf.jcu.cz/en">Faculty of Science</a>, <a href="https://www.jcu.cz/en">University of South Bohemia in České Budějovice</a> and our mission is to conduct cutting-edge research, promote collaboration, and contribute to the scientific community.
+</p>
 </section>
+
 
 <!-- Research - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
 
+<section>
+<h2>Research Areas</h2>
+<p>
+Our group focuses mainly on the investigation of charge transfer phenomena in biomolecular systems.
+Besides, we are interested in the electric field effects on heterogeneous interafces between biomolecules at solid surfaces and behavior of other redox molecular systems.
+</p>
+<ul>
+  <li>
+    <h4>Electron transport in protein junctions</h4>
+
+    <p>Although electrons in biomolecules are typically transferred by a hopping mechanism, "jumping" through the sequence of available redox sites, when peptides or proteins are incorporated between two metal contacts and form a junction, the transport mechanism changes to coherent tunneling.
+This drastic change is caused by interactions between metallic and biomolecular electronic states and their mutual positions.
+    </p>
+    <p>We investigate these phenomena by a combination of classical molecular dynamics (MD) simulations, hybrid quantum-mechanical/molecular-mechanical (QM/MM) methods, and density functional theory (DFT) calculations.
+    </p>
+
+    <table id="research-areas-figures">
+      <tr>
+        <td><img src="figures/fig-stc-junction.png" alt="STC junction"></td>
+        <td><img src="figures/fig-tunneling.png" alt="Coherent tunneling"></td>
+        <td><img src="figures/fig-azu-junction.png" alt="Azurin junction"></td>
+      </tr>
+      <tr>
+        <td><i>Small Tetraheme Cytochrome (STC) junction</i></td>
+        <td><i>Coherent tunneling description</i></td>
+        <td><i>Azurin junction</i></td>
+      </tr>
+    </table>
+    </p>
+
+    <p>
+    <table id="research-areas-papers">
+
+      <!-- Futera 2020 -->
+      <tr>
+        <td><img src="figures/icon-paper.png" alt="Paper icon"></td>
+        <td>
+        Futera, Z., Ide, I., Kayser, B., Garg, K., Jiang, X., van Wonderen, J. H., Butt, J. N., Ishii, H., Pecht, I., Sheves, M., Cahen, D., Blumberger, J.:
+        Coherent Electron Transport across a 3 nm Bioelectronic Junction Made of Multi-Heme Proteins.
+        <em>j. Phys. Chem. Lett.</em> 11, 9766 (2020)
+        <a href="https://doi.org/10.1021/acs.jpclett.0c02686">DOI: 10.1021/acs.jpclett.0c02686</a>
+        </td>
+      </tr>
+      <!-- Futera 2021 -->
+      <tr>
+        <td><img src="figures/icon-paper.png" alt="Paper icon"></td>
+        <td>
+        Futera, Z.:
+        Amino-Acid Interactions with the Au(111) Surface: Adsorption, Band Alignment, and Interfacial Electronic Coupling.
+        <em>Phys. Chem. Chem. Phys.</em> 23, 10257 (2021)
+        <a href="https://doi.org/10.1039/d1cp00218j">DOI: 10.1039/d1cp00218j</a>
+        </td>
+      </tr>
+      <!-- Kontkanen 2022 -->
+      <tr>
+        <td><img src="figures/icon-paper.png" alt="Paper icon"></td>
+        <td>
+        Kontkanen, O. V., Biriukov, D., Futera, Z.:
+        Reorganization Free Energy of Copper Proteins in Solution, in Vacuum, and on Metal Surfaces.
+        <em>J. Chem. Phys.</em> 156, 175101 (2022)
+        <a href="https://doi.org/10.1063/5.0085141">DOI: 10.1063/5.0085141</a>
+        </td>
+      </tr>
+      <!-- Kontkanen 2023 -->
+      <tr>
+        <td><img src="figures/icon-paper.png" alt="Paper icon"></td>
+        <td>
+        Kontkanen, O. V., Biriukov, D., Futera, Z.:
+        Applicability of Perturbed Matrix Method for Charge Transfer Studies at Bio/Metallic Interfaces: A Case of Azurin
+        <em>Phys. Chem. Chem. Phys.</em> 25, 12479 (2023)
+        <a href="https://doi.org/10.1039/d3cp00197k">DOI: 10.1039/d3cp00197k</a>
+        </td>
+      </tr>
+      <!-- Futera 2023 -->
+      <tr>
+        <td><img src="figures/icon-paper.png" alt="Paper icon"></td>
+        <td>
+        Futera, Z., Wu, X., Blumberger, J.:
+        Tunneling-to-Hopping Transition in Multiheme Cytochrome Bioelectronic Junctions.
+        <em>J. Phys. Chem. Lett.</em> 14, 445-452 (2023)
+        <a href="https://doi.org/10.1021/acs.jpclett.2c03361">DOI: 10.1021/acs.jpclett.2c03361</a>
+        </td>
+      </tr>
+    </table>
+    </p>
+
+  </li>
+</ul>
+</section>
+
+<!-- Members  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
+
+<section>
+<h2>Members</h2>
+<ul>
+  <li>Zdeněk Futera - Group leader</li>
+  <li>Gowtham Nirmal Jonnalagadda - Ph.D. student</li>
+  <li>Lukáš Hronek - Master student</li>
+  <li>Jitka Vysloužilová - Bachelor student</li>
+</ul>
+<p>
+Former members:
+</p>
+<ul>
+  <li>Matyáš Suchý - Bachelor (2022 - 2023)</li>
+  <li>Outi Vilhelmiina Kontkanen - Postdoc (2021 - 2022)</li>
+  <li>Denys Biriukov - Postdoc (2020 - 2022)</li>
+</ul>
+</section>
+
+<!-- Funding  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
+
+<section>
+<h2>Funding</h2>
+<ul>
+  <li>Czech Grant Agency (Project 20-02067Y, 2020-2022, PI: Z. Futera)<br>
+      <a href="https://www.isvavai.cz/cep?s=vyhledavani-resitelu&ss=detail&n=0&h=GJ20-02067Y">Electron transfer on electrified heterogeneous interfaces with redox metalloproteins</a>
+  </li>
+</ul>
+</section>
+
+
+<!-- Contact  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
+
+<section>
+<h2>Contact</h2>
+<address>
+<p>
+University of South Bohemia<br>
+Faculty of Science<br>
+Department of Physics<br>
+Branišovská 1780<br>
+370 007 České Budějovice<br>
+Czech Republic
+</p>
+<p>
+E-mail: <a href="mailto:zfutera@prf.jcu.cz">zfutera@prf.jcu.cz</a>
+</p>
+<p>
+Phone: +420 389 036 260
+</p>
+</address>
+</section>
+
+
+
+<!-- Page content - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
+<!--
+<div class="column" id="page_content"
+-->
+
+<!-- Research - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
+
+<!--
 <section>
 <h1 id="research">Research</h1>
 </section>
@@ -92,9 +220,11 @@
   <li>Eletron transport on bio/metallic interfaces</li>
   <p><img src="figures/fig-stc-junction.png" alt="STC junction" height="200"></p>
 </ul>
+-->
 
 <!-- News - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
 
+<!--
 <section>
 
 <h1 id="news">News</h1>
@@ -177,55 +307,23 @@
 </ul>
 
 </section>
+-->
 
 <!-- Publications - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
 
+<!--
 <section>
 
 <h1 id="publications">Publications</h1>
 
 <section>
-<h2>2023</h2>
-<ul>
-  <li>
-    <u>Futera, Z.</u>, Wu, X., Blumberger, J.:
-    Tunneling-to-Hopping Transition in Multiheme Cytochrome Bioelectronic Junctions.
-    <em>J. Phys. Chem. Lett.</em> 14, 445-452 (2023)
-    <a href="https://doi.org/10.1021/acs.jpclett.2c03361">DOI: 10.1021/acs.jpclett.2c03361</a>
-  </li>
-</ul>
-</section>
-
-<section>
 <h2>2022</h2>
 <ul>
-  <li>
-    Alvarez-Galvan, Y., Minofar, B., <u>Futera, Z.</u>, Francoeur, M., Jean-Marius, C., Brehm, N., Yacou, Ch., Jauregui-Haza, U. J., Gaspard, S.:
-    Adsorption of Hexavalent Chromium Using Activated Carbon Produced from Sargassum ssp.: Comparison between Lab Experiments and Molecular Dynamics Simulations.
-    <em>Molecules</em> 27, 6040 (2022)
-    <a href="https://doi.org/10.3390/molecules27186040">DOI: 10.3390/molecules27186040</a>
-  </li>
-
   <li>
     Hill, J. P., Karr, P. A., Uy, R. A. Z., Subbaiyan, N. K., <u>Futera, Z.</u>, Ariga, K., Ishihara, S., Labuta, J., D'Souza, F.:
     Analyte Interactions with Oxoporphyrinogen Derivatives: Computational Aspects.
     <em>Curr. Org. Chem.</em> 26, 580-595 (2022)
     <a href="https://doi.org/10.2174/1385272826666220208101325">DOI: 10.2174/1385272826666220208101325</a>
-  </li>
-
-  <li>
-    <u>Kontkanen, O. V.</u>, <u>Biriukov, D.</u>, <u>Futera, Z.</u>:
-    Reorganization Free Energy of Copper Proteins in Solution, in Vacuum, and on Metal Surfaces.
-    <em>J. Chem. Phys.</em> 156, 175101 (2022)
-    <a href="https://doi.org/10.1063/5.0085141">DOI: 10.1063/5.0085141</a>
-  </li>
-
-  <li>
-    Tateyama, Y., <u>Futera, Z.</u>, Ootani, Y., Iizuka, S., Anh, L.T.:
-    "Computational Aspects of Surface and Interface of BDD Electrode" in:
-Einaga Y. (eds)
-    <em>Diamond Electrodes</em>. Springer, Singapore (2022)
-    <a href="https://doi.org/10.1007/978-981-16-7834-9_5">DOI: 10.1007/978-981-16-7834-9_5</a>
   </li>
 
   <li>
@@ -283,13 +381,6 @@ Einaga Y. (eds)
   </li>
 
   <li>
-    <u>Futera, Z.</u>:
-    Amino-Acid Interactions with the Au(111) Surface: Adsorption, Band Alignment, and Interfacial Electronic Coupling.
-    <em>Phys. Chem. Chem. Phys.</em> 23, 10257-10266 (2021)
-    <a href="https://doi.org/10.1039/d1cp00218j">DOI: 10.1039/d1cp00218j</a>
-  </li>
-
-  <li>
     <u>Biriukov, D.</u>, <u>Futera, Z.</u>:
     Adsorption of Amino Acids at the Gold/Aqueous Interface: Effect of an External Electric Field.
     <em>{J. Phys. Chem. C</em> 125, 7856-7867 (2021)
@@ -299,50 +390,15 @@ Einaga Y. (eds)
 </section>
 
 </section>
-
-<!-- Funding  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
-
-<section>
-
-<h1 id="funding">Funding</h1>
-
-<ul>
-  <li>Czech Grant Agency (Project 20-02067Y, 2020-2022, PI: Z. Futera)<br>
-      <a href="https://www.isvavai.cz/cep?s=vyhledavani-resitelu&ss=detail&n=0&h=GJ20-02067Y">Electron transfer on electrified heterogeneous interfaces with redox metalloproteins</a>
-  </li>
-</ul>
-
-</section>
-
-<!-- Contact  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
-
-<section>
-
-<h1 id="contact">Contact</h1>
-
-<address>
-<p>
-University of South Bohemia<br>
-Faculty of Science<br>
-Department of Physics<br>
-Branišovská 1780<br>
-370 007 České Budějovice<br>
-Czech Republic
-</p>
-<p>
-E-mail: <a href="mailto:zfutera@prf.jcu.cz">zfutera@prf.jcu.cz</a>
-</p>
-<p>
-Phone: +420 389 036 260
-</p>
-</address>
-
-</section>
+-->
 
 <!----------------------------------------------------------------------------->
-</div> <!-- page_content -->
-</div> <!-- row -->
-</div> <!-- container -->
+<!--
+</div> --> <!-- page_content -->
+<!--
+</div> --> <!-- row -->
+<!--
+</div> --> <!-- container -->
 
 </body>
 
