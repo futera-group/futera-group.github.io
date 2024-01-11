@@ -6,25 +6,23 @@ body {
   font-weight: normal;
   font-size: 100%;
   font-variant: normal;
-  /* text */
   text-align: left;
   text-decoration: none;
-  /* line spacing */
   line-height: 1.5;
-  /* margins */
   margin: 20px;
-  /* colors */
   color: #000000;
   background: #dddddd;
 }
 
 /* header banner */
 header {
-  /* text */
   text-align: center;
   padding: 20px;
-  /* color */
   background-color: #000000;
+  }
+header img {
+  max-width: 100%;
+  height: auto;
   }
 
 /* sections */
